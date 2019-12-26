@@ -8,16 +8,71 @@ body {
 
 h1 {
   margin-top: 0;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 4rem;
 }
 
-.profilepic{
-  border-radius: 40%
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
-.p-skills{
+p {
+  color: #d4d7dd;
+}
+
+
+.profilepic {
+  border-radius: 40%;
+  display:block;
+  margin: auto auto 50px auto;
+
+}
+
+.p-skills {
   font-size: 80%;
 }
+
+.hello{
+  display: inline-block;
+}
+.cat1 {
+  height: 50px;
+  position: relative;
+  display: inline;
+}
+
+.cat2{
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.cat3{
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.cat4{
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.cat5{
+  height: 50px;
+}
+
+
 /* DIV Formatting*/
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
 .top-container {
   background-color: #17223b;
   position: relative;
@@ -26,14 +81,15 @@ h1 {
 }
 
 .middle-container {
+  padding-top: 150px;
   background-color: #17223b;
-
 }
 
 .bottom-container {
   background-color: #17223b;
 }
 
+/* end DIV formatting */
 .mountains {
   position: relative;
   top: 200px;
@@ -41,9 +97,8 @@ h1 {
 
 .catfall {
   height: 100px;
-  width: 150px;
-  position: fixed;
-  right: 550px;
+  position: absolute ;
+  right: 650px;
 }
 
 .clouds {
